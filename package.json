@@ -1,0 +1,36 @@
+{
+  "name": "dependencytrack-uploader-node",
+  "version": "1.0.0",
+  "description": "CLI tool to upload SBOMs to DependencyTrack",
+  "main": "dist/uploader.js",
+  "bin": {
+    "dependencytrack-uploader": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dependencytrack",
+    "sbom",
+    "upload",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@types/axios": "^0.14.4",
+    "@types/form-data": "^2.5.2",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@10.22.0",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "commander": "^14.0.2",
+    "dotenv": "^17.2.3",
+    "form-data": "^4.0.5"
+  }
+}
