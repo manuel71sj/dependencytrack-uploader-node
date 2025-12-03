@@ -1,6 +1,6 @@
 {
   "name": "dependencytrack-uploader-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI tool to upload SBOMs to DependencyTrack",
   "main": "dist/uploader.js",
   "bin": {
