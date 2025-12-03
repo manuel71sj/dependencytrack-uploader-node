@@ -41,7 +41,7 @@ dependencytrack-uploader \
 | `--api-key` | API Key | Yes (or Env) |
 | `--project-name` | Project Name | Yes (or Env) |
 | `--project-version` | Project Version | Yes (or Env) |
-| `--bom` | Path to SBOM file | Yes (or Env) |
+| `--bom` | Path to SBOM file (XML, JSON supported) | Yes (or Env) |
 | `--auto-create` | Auto create project (default: true) | No |
 
 ### Environment Variables

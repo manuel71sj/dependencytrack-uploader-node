@@ -41,7 +41,7 @@ dependencytrack-uploader \
 | `--api-key` | API 키 | 예 (또는 환경변수) |
 | `--project-name` | 프로젝트 이름 | 예 (또는 환경변수) |
 | `--project-version` | 프로젝트 버전 | 예 (또는 환경변수) |
-| `--bom` | SBOM 파일 경로 | 예 (또는 환경변수) |
+| `--bom` | SBOM 파일 경로 (XML, JSON 지원) | 예 (또는 환경변수) |
 | `--auto-create` | 프로젝트 자동 생성 (기본값: true) | 아니오 |
 
 ### 환경 변수 (Environment Variables)
